@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Michael Lin - Teaching Homepage</title>
+  <title>Join Class – Google Meet</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding-top: 50px; }
+    .button {
+      background-color: #4285F4; color: white; padding: 15px 25px;
+      font-size: 20px; border-radius: 8px; text-decoration: none;
+    }
+    iframe { margin-top: 40px; border: 2px solid #ddd; border-radius: 10px; }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Michael Lin’s Online Teaching Site</h1>
-  <p>Click the link below to enter the lecture room:</p>
 
-  <a href="lecture.html">Enter Lecture Room</a>
+<h1>Join the Live Class</h1>
+
+<a class="button" href="https://meet.google.com/sby-omva-qrz" target="_blank">
+  Join Google Meet
+</a>
+
+<h2>Or scan the QR code on your phone:</h2>
+<img src="qr.png" width="280" alt="QR Code to join the meeting">
+
+<h2>Meeting Preview</h2>
+<iframe 
+  src="https://meet.google.com/abc-defg-hij" 
+  width="700" height="500"
+  allow="camera; microphone; fullscreen; display-capture">
+</iframe>
+
 </body>
 </html>
